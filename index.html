@@ -46,8 +46,8 @@
             </div>
             <div class="flex items-center gap-4">
               <button class="btn btn-ghost btn-circle">
-                <div class="form-control -mt-3 mr-40 -ml-10 hidden lg:inline-flex">
-                    <input type="text" placeholder="Search here " class="input input-bordered rounded-full w-24 md:w-auto" />
+                <div class="form-control -mt-1 mr-40 -ml-10 hidden lg:inline-flex">
+                    <input type="text" placeholder="Search here" class="input input-bordered rounded-full w-24 md:w-auto" />
                     <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-5  -mt-8 ml-40"
@@ -74,7 +74,6 @@
             </div>
           </nav>
           <!-- start banner section -->
-
           <div class="carousel w-full mt-10">
             <div id="slide1" class="carousel-item relative w-full">
               <div class="overflow-hidden relative">
@@ -141,12 +140,306 @@
               </div>
             </div>
           </div>
-
-
-
+          <!-- header bonus part -->
+           <div class="flex mx-20 gap-20 hidden lg:inline-flex">
+            <div>
+              <img src="images/fruit1.png" alt="">
+              <p>Strawberry</p>
+            </div>
+            <div>
+              <img src="images/fruit2.png" alt="">
+              <p>Orange</p>
+            </div>
+            <div>
+              <img src="images/fruit3.png" alt="">
+              <p>Mango</p>
+            </div>
+            <div>
+              <img src="images/fruit4.png" alt="">
+              <p>Strawberry</p>
+            </div>
+            <div>
+              <img src="images/fruit5.png" alt="">
+              <p>Mango</p>
+            </div>
+           </div>
     </header>
-    <main>
+    
+    <main class="">
+      <!-- Deal of the day -->
+      <section class="mx-5 my-2 lg:mx-24 lg:my-5">
+        <div class="flex flex-col lg:flex-row mt-10 lg:mt-20">
+          <div>
+            <h1 class="text-2xl lg:text-5xl font-bold text-center lg:text-left mb-5">Deal of the day</h1>
+            <p class="text-sm mx-14 lg:mx-0 text-center lg:text-left text-[#494949]">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+          </div>
+          <div class="mt-5 ml-16 lg:ml-80">
+            <div class="grid auto-cols-max grid-flow-col gap-5 text-center">
+              <div class="flex flex-col">
+                <span class="countdown font-bold text-4xl lg:text-5xl">
+                  <span style="--value:29;"></span>:
+                </span>
+                days
+              </div>
+              <div class="flex flex-col">
+                <span class="countdown font-bold text-4xl lg:text-5xl">
+                  <span style="--value:15;"></span>:
+                </span>
+                hours
+              </div>
+              <div class="flex flex-col">
+                <span class="countdown font-bold text-4xl lg:text-5xl">
+                  <span style="--value:25;"></span>:
+                </span>
+                min
+              </div>
+              <div class="flex flex-col">
+                <span class="countdown font-bold text-4xl lg:text-5xl">
+                  <span style="--value:${counter};"></span>
+                </span>
+                sec
+              </div>
+            </div>
+          </div>
+        </div>
+         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-center">
+          <div class="mx-10 lg:mx-0 my-10 lg:my-20">
+            <img class="ml-20" src="images/fruit6.png" alt="">
+            <h3 class="my-5 text-2xl font-bold">12.90$ - 18.85$</h3>
+            <p class="text-[#595656]">Apples</p>
+            <div class="rating rating-md rating-half">
+              <input type="radio" name="rating-10" class="rating-hidden" />
+              <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-primary-color" />
+              <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+              <input
+                type="radio"
+                name="rating-10"
+                class="mask mask-star-2 mask-half-1 bg-primary-color"
+                checked="checked" />
+              <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+              <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-primary-color" />
+              <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+              <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-primary-color" />
+              <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+              <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-primary-color" />
+              <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+            </div>
+            <div>
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="m-1 text-primary-color">Details</div>
+                <div
+                  tabindex="0"
+                  class="dropdown-content card card-compact bg-yellow-400 z-[2] w-100 p-2 shadow text-center hidden lg:inline-flex">
+                  <div class="card-body mr-20 ml-20">
+                    <img src="images/fruit8.png" alt="">
+                    <h1 class="card-title ml-14">Red Dragon</h1>
+                    <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                    <div class="rating rating-lg rating-half">
+                      <input type="radio" name="rating-10" class="rating-hidden" />
+                      <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-primary-color" />
+                      <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+                      <input
+                        type="radio"
+                        name="rating-10"
+                        class="mask mask-star-2 mask-half-1 bg-primary-color"
+                        checked="checked" />
+                      <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+                      <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-primary-color" />
+                      <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+                      <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-primary-color" />
+                      <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+                      <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-primary-color" />
+                      <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+                    </div>
+                    <div class="flex gap-3">
+                      <button class="btn bg-white border-primary-color  text-primary-color ml-5">Close</button>
+                      <button class="btn bg-primary-color border-primary-color  text-white">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mx-10 lg:mx-0 my-5 lg:my-20">
+            <img class="ml-20" src="images/fruit7.png" alt="">
+            <h3 class="my-5 text-2xl font-bold">12.90$ - 18.85$</h3>
+            <p class="text-[#595656]">Orange</p>
+            <div class="rating rating-md rating-half">
+              <input type="radio" name="rating-10" class="rating-hidden" />
+              <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-primary-color" />
+              <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+              <input
+                type="radio"
+                name="rating-10"
+                class="mask mask-star-2 mask-half-1 bg-primary-color"
+                checked="checked" />
+              <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+              <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-primary-color" />
+              <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+              <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-primary-color" />
+              <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+              <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-primary-color" />
+              <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+            </div>
+            <div>
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="m-1 text-primary-color">Details</div>
+                <div
+                  tabindex="0"
+                  class="dropdown-content card card-compact bg-yellow-400 z-[2] w-100 p-2 shadow text-center hidden lg:inline-flex">
+                  <div class="card-body mr-20 ml-20">
+                    <img src="images/fruit8.png" alt="">
+                    <h1 class="card-title ml-14">Red Dragon</h1>
+                    <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                    <div class="rating rating-lg rating-half">
+                      <input type="radio" name="rating-10" class="rating-hidden" />
+                      <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-primary-color" />
+                      <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+                      <input
+                        type="radio"
+                        name="rating-10"
+                        class="mask mask-star-2 mask-half-1 bg-primary-color"
+                        checked="checked" />
+                      <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+                      <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-primary-color" />
+                      <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+                      <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-primary-color" />
+                      <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+                      <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-primary-color" />
+                      <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+                    </div>
+                    <div class="flex gap-3">
+                      <button class="btn bg-white border-primary-color  text-primary-color ml-5">Close</button>
+                      <button class="btn bg-primary-color border-primary-color  text-white">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mx-10 lg:mx-0 my-5 lg:my-20">
+            <img class="ml-20" src="images/fruit8.png" alt="">
+            <h3 class="my-5 text-2xl font-bold">12.90$ - 18.85$</h3>
+            <p class="text-[#595656]">Red Dragon</p>
+            <div class="rating rating-md rating-half">
+              <input type="radio" name="rating-10" class="rating-hidden" />
+              <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-primary-color" />
+              <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+              <input
+                type="radio"
+                name="rating-10"
+                class="mask mask-star-2 mask-half-1 bg-primary-color"
+                checked="checked" />
+              <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+              <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-primary-color" />
+              <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+              <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-primary-color" />
+              <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+              <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-primary-color" />
+              <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+            </div>
+            <div>
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="m-1 text-primary-color">Details</div>
+                <div
+                  tabindex="0"
+                  class="dropdown-content card card-compact bg-yellow-400 z-[2] w-100 p-2 shadow text-center hidden lg:inline-flex">
+                  <div class="card-body mr-20 ml-20">
+                    <img src="images/fruit8.png" alt="">
+                    <h1 class="card-title ml-14">Red Dragon</h1>
+                    <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                    <div class="rating rating-lg rating-half">
+                      <input type="radio" name="rating-10" class="rating-hidden" />
+                      <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-primary-color" />
+                      <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+                      <input
+                        type="radio"
+                        name="rating-10"
+                        class="mask mask-star-2 mask-half-1 bg-primary-color"
+                        checked="checked" />
+                      <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+                      <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-primary-color" />
+                      <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+                      <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-primary-color" />
+                      <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+                      <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-primary-color" />
+                      <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+                    </div>
+                    <div class="flex gap-3">
+                      <button class="btn bg-white border-primary-color  text-primary-color ml-5">Close</button>
+                      <button class="btn bg-primary-color border-primary-color  text-white">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mx-10 lg:mx-0 my-5 lg:my-20">
+            <img class="pl-20" src="images/fruit9.png" alt="">
+            <h3 class="my-5 text-2xl font-bold">12.90$ - 18.85$</h3>
+            <p class="text-[#595656]">Banana</p>
+            <div class="rating rating-md rating-half">
+              <input type="radio" name="rating-10" class="rating-hidden" />
+              <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-primary-color" />
+              <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+              <input
+                type="radio"
+                name="rating-10"
+                class="mask mask-star-2 mask-half-1 bg-primary-color"
+                checked="checked" />
+              <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+              <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-primary-color" />
+              <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+              <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-primary-color" />
+              <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+              <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-primary-color" />
+              <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+            </div>
+            <div>
+              <div class="dropdown dropdown-left">
+                <div tabindex="0" role="button" class="m-1 text-primary-color">Details</div>
+                <div
+                  tabindex="0"
+                  class="dropdown-content card card-compact bg-yellow-400 z-[2] w-100 p-2 shadow text-center hidden inline-flex">
+                  <div class="card-body mr-20 ml-20">
+                    <img class="" src="images/fruit8.png" alt="">
+                    <h1 class="card-title ml-14">Red Dragon</h1>
+                    <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                    <div class="rating rating-lg rating-half">
+                      <input type="radio" name="rating-10" class="rating-hidden" />
+                      <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-primary-color" />
+                      <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+                      <input
+                        type="radio"
+                        name="rating-10"
+                        class="mask mask-star-2 mask-half-1 bg-primary-color"
+                        checked="checked" />
+                      <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+                      <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-primary-color" />
+                      <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+                      <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-primary-color" />
+                      <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+                      <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-primary-color" />
+                      <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-primary-color" />
+                    </div>
+                    <div class="flex gap-3">
+                      <button class="btn bg-white border-primary-color  text-primary-color ml-5">Close</button>
+                      <button class="btn bg-primary-color border-primary-color  text-white">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+         </div>
+         <div class="text-center mt-5 lg:mt-0">
+          <button class="btn bg-primary-color border-primary-color  text-white ">Shop Now</button>
+         </div>
+      </section>
+      <section class="mx-5 my-2 lg:mx-24 lg:my-5">
+        <!-- Meet the team section -->
 
+      </section>
     </main>
     <footer>
 
